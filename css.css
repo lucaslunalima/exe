@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');/*Importar fontes*/
+@font-face {
+    font-family: 'Nickova';
+    src: url('Nickova.ttf') format('truetype');
+    font-weight:  normal;
+    font-style: normal;
+}
+*{
+    font-family: 'Vinil Rubik', 'Arial Narrow', Arial, sans-serif;
+   /*height: 100%;*/
+}
+
+body{
+
+    background-image: linear-gradient(To right,#ff7f4d,#ff661f);
+
+text-align: justify;
+/*font-weight:lighter;
+font-style: oblique;*/
+}
+
+main{
+
+    background-color:  white; /*Essa linha trabalha a cor de fundo*/
+    width: 600px;/*Essa linha é a largura*/ 
+    padding:35px; /*Essa linha é a distancia de borda*/
+    margin: auto; /*Isso deixa ele centralizado*/
+    border-radius: 25px; /*Arredondar as bordas */
+    box-shadow: 5px 5px 15px #7723027e ; /* sombra*/
+
+ 
+}
+
+p{
+    text-align: justify;
+    text-indent: 1em;
+}
+h1{
+    font-family: 'Nickova';
+    color: #fc6f37;
+    text-align: center;
+    text-shadow:5px 5px 5px #00000049;
+    font-size: 4em;/*Usar geralmente x e em  um em é 16 px*/
+}
+#sec{
+    color: #25ff12;
+}
+h2{
+   
+    color: #972b00;
+}
+ img{
+
+    size-adjust: 20 px;
+ }
+ .la {
+     color: aqua;
+     font-weight: bold;
+ }

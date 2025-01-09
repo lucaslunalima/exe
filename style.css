@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{color: brown;
+  background-color: chartreuse;
+}
+.h2{
+    color: blue;
+}
+p{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

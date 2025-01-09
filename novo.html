@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site exemplo</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+       div{
+            display: inline-block;
+            background-color: rgba(255, 33, 33, 0.452);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover > p{
+            display: block;
+            color: chartreuse;
+            background-color: black;
+        }
+        div:hover{
+            background-color: aqua;
+        }
+        div > p{
+            display: none;
+        }
+        a{
+            color: rgb(122, 0, 0);
+            text-decoration: none   ;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:hover{
+            color: chartreuse;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::after{
+            content: '[link]';
+            color: blue; 
+        }
+        h1{
+            outline-width: 5px;
+            color: black;
+            outline-style: dashed;
+            border: 10px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <main>
+<div>01
+    <p>olá mundp</p>
+</div>
+<div id ="2"></div>
+        <h1> 
+           Rogerio
+        </h1>
+        <h2 class="la">Titulo 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim possimus aperiam doloribus quis nulla optio. Tenetur ad maiores ipsum cupiditate hic, necessitatibus eum laborum saepe quo nemo exercitationem eligendi est.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam laborum vero officiis delectus fugiat est, quis velit eligendi suscipit commodi repellendus? Sed vero rem velit distinctio nostrum porro quod?</p>
+        <h2 id="sec">Titulo 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos excepturi ut nulla ducimus eaque pariatur doloremque! Sapiente quidem facere consequatur a tempora? Dolores similique reprehenderit mollitia, consequuntur quae cumque!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam enim nihil, consectetur eveniet magnam, ipsum hic exercitationem dolor, soluta quas fuga nobis iure id blanditiis. Cupiditate vel odit odio quibusdam.</p>
+        <!--span é um conteiner generico-->
+        <ul>
+            <li><a href="https://www.youtube.com/" target="-blank" rel = "external">Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com/" target="-blank" rel = "external">Curso em Video</a></li>
+        </ul>
+    </main>
+   
+
+  
+   
+
+</body>
+</html>
