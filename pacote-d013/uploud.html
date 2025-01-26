@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Rede Sociais</title>
+</head>
+
+<body>
+    <main>
+        <section id="telefone">
+            <iframe src="home.html" frameborder="0" name="tela" id="tela">
+                Seu navegador não é compatível com isso
+            </iframe>
+        </section>
+        <section id="rede-sociais">
+            <a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="Home"></a><br>
+            <a href="youtube.html" target="tela"><img src="imagens/logo-youtube.jpg" alt="youtube"></a><br>
+            <a href="#" target="tela"><img src="imagens/logo-github.jpg" alt="GitHub"></a><br>
+            <a href="#" target="tela"><img src="imagens/logo-instagram.jpg" alt="Instagram"></a><br>
+            <a href="#" target="tela"><img src="imagens/logo-twitter.jpg" alt="Twitter"></a><br>
+            <a href="#" target="tela"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a><br>
+        </section>
+        <section id="upload">
+            <h2>Upload de Imagem</h2>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <label for="fileToUpload">Selecione a imagem:</label>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
