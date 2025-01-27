@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    
+        <P>
+            <label for="iestdo"></label>
+            <select name="estado" id="iestdo">
+                <option value=""selected>--Escolha--</option>
+            <optgroup label="região norte">
+                <option value="am">amazonas</option>
+                <option value="ap">amapa</option>
+                <option value="pa">pará</option>
+
+            <optgroup label="região sul">
+                <option value="mg">minas gerais</option>
+                <option value="sp">são paulo</option>
+                <option value="rj">rio de janeiro</option>
+            </optgroup>
+
+            </select>
+        </P>
+        <p>
+            <label for="ipro"> profissão</label>
+            <input type="text" name="profissao" id="ipro" list="listaprof">
+            <datalist id="listaprof">
+                <option value="programador">
+                <option value="analista">
+                <option value="designer">Designer</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+</form>
+</body>
+</html>
